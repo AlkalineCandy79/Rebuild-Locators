@@ -5,7 +5,7 @@
 #           script is designed to send a error message when it encounters a problem.
 #           Full details of the error are included in the message.
 #
-# Author:      John Spence, Spatial Data Administrator, City of Bellevue
+# Author:      John Spence
 #
 # Created:     4/19/2019
 # Modified:    10/2/2019
