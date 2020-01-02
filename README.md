@@ -15,7 +15,7 @@ Moving on to the configuration file, locator_rebuild.ini, using a standard text 
 - [ ] Update the user name for the user account that will be used to shut down ArcGIS Server Services.
 - [ ] Update the password for the user account that will be used to shut down the ArcGIS Server Services.  Take heed of how the python script calls that password around line 158.
 - [ ] Update the location(s) of all the locators you want to build.  You want to include the full path + the name of the locator minus the file extension.  For example if buildings.loc is what you want to rebuild, only put buildings.  Only use a , with a space to separate the locators from one another.
-- [ ] Update the server_name(s) you want to work from.  Just put the server name as you know it.  For example, without the FQDN included, COBIGISPR02 would be used vs. COBIGISPR02.ci.bellevuewa.us.
+- [ ] Update the server_name(s) you want to work from.  Just put the server name as you know it.  For example, without the FQDN included, YOURSERVERNAME would be used vs. YOURSERVERNAME.DOMAIN.COM.
 - [ ] Update the server_port.  This python script has both 6080 and 6443 hard coded as options.
 - [ ] Update the server_fqdn_suff which is the suffix to add after the server name is called.  This is needed for SSL based logons.
 - [ ] Update service_folder.  You may have more than one folder here too, provided you place a , and a space following it.
