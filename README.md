@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 # Installation
 Required assets are as follows:
 - ArcGIS Desktop 10.5.1+
